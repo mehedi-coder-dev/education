@@ -1,0 +1,310 @@
+@media(max-width:1382px) {
+    .search_bar ul {
+        display: none !important;
+    }
+}
+
+@media(max-width:1200px) {
+    .logo {
+        width: 174px !important;
+    }
+
+    .main_nav ul li a {
+        padding: 10px 16px;
+        font-size: 14px !important;
+    }
+
+    .footer_copyright:before {
+        max-width: 1000px !important;
+    }
+
+    .undregraduate_des {
+        padding: 18px 35px 0 !important;
+    }
+
+    .undregraduate_des h3 {
+        font-size: 22px !important;
+    }
+}
+
+@media(max-width:992px) {
+    .top_header {
+        display: none;
+    }
+
+    .admission_open {
+        padding: 128px 0 40px 0 !important;
+    }
+
+    .admission_main_bg .admission_bg_img::before,
+    .admission_main_bg .admission_bg_img::after {
+        width: 100% !important;
+        height: 50% !important;
+        top: unset !important;
+        bottom: unset !important;
+    }
+
+    .admission_main_bg .bg_img::before {
+        top: 0 !important;
+    }
+
+    .admission_main_bg .bg_img::after {
+        bottom: 0 !important;
+    }
+
+    .video_wrap {
+        padding: 103px 0 46px 0px !important;
+    }
+
+    .bg_event::after {
+        background: none !important;
+    }
+
+    .event_learning {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    section.event_section {
+        padding: 70px 0px 70px 0px !important;
+    }
+
+    .letter_padding {
+        padding: 50px 32px !important;
+    }
+
+    .footer_copyright:before {
+        max-width: 800px !important;
+    }
+
+    .gpa_margin_top {
+        margin-top: 30px !important;
+    }
+
+    .ctg_tilte {
+        font-size: 17px !important;
+    }
+
+    .catagories_title h2 {
+        font-size: 30px !important;
+    }
+
+    .undregraduate_des {
+        padding: 60px 35px 0 !important;
+    }
+
+    .donatoin {
+        margin-bottom: 40px !important;
+    }
+
+    .main_donation {
+        padding: 59px 0px 50px 0px !important;
+    }
+
+    .university_gpa_about h2 {
+        font-size: 40px !important;
+    }
+
+    .categories {
+        display: none !important;
+    }
+
+    /* ********nav bar design****** */
+    .custom_logo {
+        width: 50%;
+    }
+
+    .custom_nav {
+        width: 50%;
+    }
+
+    .big_dev_posit {
+        position: initial !important;
+    }
+
+    .bottom_header .container {
+        position: relative;
+    }
+
+    .main_nav ul li:last-child {
+        border: none;
+    }
+
+    .main_nav {
+        display: none !important;
+        position: absolute;
+        background: #ffffff;
+        z-index: 999999 !important;
+        width: calc(100% - 20px);
+        left: 0;
+        margin-left: 10px;
+        top: 117px;
+        transform-origin: top;
+        transform: scaleY(0);
+        transition: all 0.5s;
+    }
+
+    .show_main_menu {
+        display: initial !important;
+        transform: scaleY(1) !important;
+
+    }
+
+    .main_nav ul li {
+        float: initial !important;
+        line-height: 43px;
+
+    }
+
+    .main_nav ul li .home_sub {
+        display: none;
+        position: initial !important;
+        width: 100% !important;
+        visibility: visible !important;
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+        transition: all 0.3s;
+    }
+
+    .show_sub_menu {
+        display: block !important;
+        transform: scaleY(1) !important;
+        opacity: 1 !important;
+    }
+
+    .home_sub ul {
+        width: 100% !important;
+    }
+
+    .main_nav ul li .submenu {
+        display: none;
+        visibility: visible;
+        transform-origin: top;
+        transform: scaleY(0);
+        position: initial;
+        width: 100%;
+        transition: all 0.4s;
+    }
+
+    .show_sub_menu1 {
+        display: block !important;
+        transform: scaleY(1) !important;
+    }
+
+    .home_sub ul li a {
+        border-bottom: none;
+    }
+
+    .main_nav .home_sub ul li a {
+        border-bottom: none;
+    }
+
+    .main_nav ul li a {
+        border-bottom: 1px solid #aba7a7;
+    }
+
+    .main_nav ul li .submenu li a {
+        border-bottom: none;
+    }
+
+    .main_nav ul li a:after {
+        position: initial !important;
+        content: "" !important;
+    }
+
+    .main_nav .submenu {
+        padding: 10px 29px !important;
+    }
+
+    i.fas.fa-chevron-down {
+        float: right;
+    }
+
+    i.fas.fa-chevron-down {
+        display: block !important;
+    }
+
+}
+
+/* *********small device start************ */
+@media(max-width:768px) {
+    .main_news_letter {
+        margin-bottom: 30px !important;
+    }
+
+    .footer_social_icon ul {
+
+        justify-content: start !important;
+    }
+
+    .footer_copyright_developer {
+        margin: 15px 0px 15px 0px !important;
+    }
+
+    .footer_background_img {
+        padding: 218px 0 0px 0px !important;
+    }
+
+    .footer_copyright:before {
+        max-width: 600px !important;
+    }
+
+    .gpa_img_bottom {
+        margin-top: 30px;
+    }
+}
+
+/* *********mobile device************ */
+@media(max-width:558px) {
+    .event_learning {
+        display: flow-root !important;
+    }
+
+    .date_event {
+        width: 100% !important;
+    }
+
+    .event_desc {
+        padding-top: 20px !important;
+    }
+
+    .event_learning {
+        padding-bottom: 0px !important;
+    }
+
+    .slider_img {
+        margin-right: 13px !important;
+    }
+
+    .slider_img {
+        margin-left: 13px !important;
+    }
+
+    .donation_singale {
+
+        float: initial !important;
+    }
+
+    .donation_right_content {
+        padding-top: 20px !important;
+    }
+
+    .container.slide_title h5 {
+        font-size: 40px !important;
+    }
+
+    .content_position .slide_title p {
+        font-size: 68px !important;
+    }
+
+    .main_news_letter h2 {
+        font-size: 28px !important;
+    }
+
+    .admission_open {
+        padding: 180px 0 40px 0 !important;
+    }
+
+
+}
